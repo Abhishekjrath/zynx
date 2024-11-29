@@ -1,0 +1,111 @@
+
+img{
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 0;
+}
+
+
+
+nav{
+    display: flex;
+    
+}
+
+#items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+    background-color: #f8f9fa;
+    height: 100vh;
+    justify-content: center;
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  
+  .new-feature-badge {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .team-dashboard-link {
+    color: #007bff;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  
+  .team-dashboard-link:hover {
+    text-decoration: underline;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222;
+    margin: 20px 0;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-demo {
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+  }
+  
+  .button-demo:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .button-signup {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .button-signup:hover {
+    background-color: #0056b3;
+  }
+  
